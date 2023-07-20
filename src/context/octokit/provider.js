@@ -39,6 +39,7 @@ export const OctokitProvider = ({ children }) => {
         position: "top-end",
         width: 350,
         title: "Something went wrong",
+        html: "Could not access repository, make sure it exists"
       });
     }
   };
